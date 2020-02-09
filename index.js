@@ -11,6 +11,6 @@ conversion({ html: '<h1>Hello World</h1>' }, function(err, result) {
  
   console.log(result.numberOfPages);
   console.log(result.logs);
-  result.stream.pipe(fs.createWriteStream('/path/to/anywhere.pdf'));
+  result.stream.pipe(fs.createWriteStream('./test.pdf'));
   conversion.kill(); // necessary if you use the electron-server strategy, see bellow for details
 });
