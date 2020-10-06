@@ -15,6 +15,6 @@
     "inquirer": "^6.5.0"
   },
   "devDependencies": {
-    "electron": "^8.0.0"
+    "electron": "^8.5.1"
   }
 }
